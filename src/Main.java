@@ -5,9 +5,9 @@ public class Main {
         System.out.println("Программа расчета бесплатных бонусных миль за перелеты");
         System.out.println("Введите стоимость вашего билета в рублях: ");
         Scanner scanner = new Scanner(System.in);
-        int price_fly = (int) scanner.nextDouble();
-        System.out.println("Стоимость перелета: " + price_fly);
-        int miles = price_fly / 20;
+        int priceFly = (int) scanner.nextDouble();
+        System.out.println("Стоимость перелета: " + priceFly);
+        int miles = priceFly / 20;
         System.out.println("Начисленные мили за перелет: " + miles);
 
     }
